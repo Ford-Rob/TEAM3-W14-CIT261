@@ -2,11 +2,13 @@
 
 <All>
 
+
 <task>
 <question>Where is Paris?</question>
 <option>France</option>
 <option>Belgium</option>
 <option>Norway</option>
+<option>Spain</option>
 </task>
 
 <task>
@@ -14,6 +16,7 @@
 <option>England</option>
 <option>China</option>
 <option>Denmark</option>
+<option>Japan</option>
 </task>
 
 
@@ -22,12 +25,145 @@
 <option>Italy</option>
 <option>Brazil</option>
 <option>Canada</option>
+<option>Mexico</option>
 </task>
+
 
 <task>
 <question>Where is Rexburg?</question>
 <option>Idaho</option>
 <option>Utah</option>
-<option>Canada</option>
+<option>Washington</option>
+<option>Columbia</option>
 </task>
+
+<task>
+<question>Where is Toronto?</question>
+<option>Ontario</option>
+<option>Quebec</option>
+<option>British Columbia</option>
+<option>Alberta</option>
+</task>
+
+<task>
+<question>Where is Rio de Janeiro?</question>
+<option>Brazil</option>
+<option>Paraguay</option>
+<option>Bolivia</option>
+<option>Chile</option>
+</task>
+
+<task>
+<question>Where is Moscow?</question>
+<option>Russia</option>
+<option>Norway</option>
+<option>Spain</option>
+<option>Ukraine</option>
+</task>
+
+<task>
+<question>Where is Baghdad?</question>
+<option>Iraq</option>
+<option>Iran</option>
+<option>Syria</option>
+<option>Afghanistan</option>
+</task>
+
+<task>
+<question>Where is Sydney?</question>
+<option>Australia</option>
+<option>South Africa</option>
+<option>United States</option>
+<option>Thailand</option>
+</task>
+
+<task>
+<question>Where is Cairo?</question>
+<option>Egypt</option>
+<option>Saudi Arabia</option>
+<option>Israel</option>
+<option>Lebanon</option>
+</task>
+
+<task>
+<question>Where is Tbilisi?</question>
+<option>Georgia</option>
+<option>Armenia</option>
+<option>Syria</option>
+<option>Jordan</option>
+</task>
+
+<task>
+<question>Where is Istanbul?</question>
+<option>Turkey</option>
+<option>Bulgaria</option>
+<option>Greece</option>
+<option>Romania</option>
+</task>
+
+<task>
+<question>Where is Boise?</question>
+<option>Idaho</option>
+<option>Utah</option>
+<option>Canada</option>
+<option>Alaska</option>
+</task>
+
+<task>
+<question>Where is Zurich?</question>
+<option>Switzerland</option>
+<option>Austria</option>
+<option>Croatia</option>
+<option>Slovakia</option>
+</task>
+
+<task>
+<question>Where is Warsaw?</question>
+<option>Poland</option>
+<option>Germany</option>
+<option>Denmark</option>
+<option>Netherlands</option>
+</task>
+
+<task>
+<question>Where is Dijon?</question>
+<option>France</option>
+<option>United States</option>
+<option>Spain</option>
+<option>Morocco</option>
+</task>
+
+<task>
+<question>Where is Antananarivo?</question>
+<option>Madagascar</option>
+<option>Zimbabwe</option>
+<option>Ethiopia</option>
+<option>Djibouti</option>
+</task>
+
+<task>
+<question>Where is Jeddah?</question>
+<option>Saudi Arabia</option>
+<option>Yemen</option>
+<option>Sudan</option>
+<option>Chad</option>
+</task>
+
+<task>
+<question>Where is Caracas?</question>
+<option>Venezuela</option>
+<option>Colombia</option>
+<option>Chile</option>
+<option>Peru</option>
+</task>
+
+<task>
+<question>Where is Managua?</question>
+<option>Nicaragua</option>
+<option>Costa Rica</option>
+<option>Guatemala</option>
+<option>El Salvador</option>
+</task>
+
+
 </All>
