@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+
+        <style>
+		#animation-container { 
+		animation: translate 3s; 
+		animation-iteration-count: 1; 
+		-webkit-animation: translate 3s; /* Safari & Chrome */
+		-webkit-animation-iteration-count: 1;
+		margin-left: 100px; 
+		} 
+ 
+		@keyframes translate { 
+		0%   { transform:  translate(0px, 0px);    } 
+		25%   { transform:  translate(-100px, 0px);   }
+		50%   { transform:  rotate(180deg);   }
+		100%  { transform:  translate(0px, 0px);   } 
+		}
+ 
+ 
+		@-webkit-keyframes translate { 
+		0%   { -webkit-transform:  translate(0px, 0px) ;   } 
+		25%   { -webkit-transform:  translate(-100px, 0px);   }
+		50%   { -webkit-transform:  rotate(180deg);   }
+		100%  { -webkit-transform:  translate(0px, 0px);   } 
+		} 
+ 
+		.inner-circle { 
+		background-image: url('experiment.png'); 
+		background-repeat: no-repeat; 
+		height: 150px; 
+		width: 150px; 
+		}
+
+		p {
+		font-family:Arial,Helvetica,sans-serif;
+		text-indent:132px;
+		}
+
+		#button1 {
+		width:250px;
+		height:75px;
+		background:white;
+		position:relative;
+		left: 50px;
+		animation:myfirst 5s;
+		-webkit-animation:myfirst 5s; /* Safari and Chrome */
+		-webkit-transition:background 1s; /* For Safari 3.1 to 6.0 */
+		transition:background 1s;
+		}
+
+		@keyframes myfirst
+		{
+		0%   {background:white; left:0px; }
+		50%  {background:white; left:50px; }
+		100%  {background:white; left:50px; }
+
+		}
+
+		@-webkit-keyframes myfirst /* Safari and Chrome */
+		{
+		0%   {background:white; left:0px; }
+		50%  {background:white; left:50px; }
+		100%  {background:white; left:50px; }
+		}
+
+		#button1:hover
+		{
+		background: red;
+		}
+
+		#button2 {
+		width:250px;
+		height:75px;
+		background:white;
+		position:relative;
+		left: 50px;
+		animation:my2nd 5s;
+		-webkit-animation:my2nd 5s; /* Safari and Chrome */
+		-webkit-transition:background 1s; /* For Safari 3.1 to 6.0 */
+		transition:background 1s;
+		}
+
+		@keyframes my2nd
+		{
+		0%   {background:white; left:0px; }
+		50%  {background:white; left:50px; }
+		100%  {background:white; left:50px; }
+
+		}
+
+		@-webkit-keyframes my2nd /* Safari and Chrome */
+		{
+		0%   {background:white; left:0px; }
+		50%  {background:white; left:50px; }
+		100%  {background:white; left:50px; }
+		}
+		
+		#button2:hover
+		{
+		background: green;
+		}
+        </style>
+
+
+    </head>
+
+<body>
+<p>Welcome to</p>
+
+<div id="animation-container">
+	<div class="inner-circle"></div>
+</div>
+
+<strong><p>THE QUIZZ</p></strong>
+<div id = "button1">
+	<a href=../proof3/quiz4.php?q=1><img src="take.png" alt="Take a Quiz"></a>
+</div>
+<div id = "button2">
+	<img src="make.png" alt="Make a Quiz">
+</div>
+</body>
+</html>
