@@ -2,14 +2,35 @@
 
 <html>
     <head>
+	<meta name="viewport" content="width=420" />
+
 
         <style>
+		@media (max-width: 480px) and (min-width: 380px) {
+			@-viewport {
+			width: 420px;
+			}
+		}
+
+		  #ccontainer {
+		  width:420px;
+
+		  margin: 0 auto;
+		  margin-top:100px;
+		  }
+
+		  #myCanvas {
+		//background:#FFFFFF;
+            }
+		  #myCanvas {
+		//background:#FFFFFF;
+            }
 		#animation-container { 
 		animation: translate 3s; 
 		animation-iteration-count: 1; 
 		-webkit-animation: translate 3s; /* Safari & Chrome */
 		-webkit-animation-iteration-count: 1;
-		margin-left: 100px; 
+		margin-left: 125px; 
 		} 
  
 		@keyframes translate { 
@@ -36,7 +57,7 @@
 
 		p {
 		font-family:Arial,Helvetica,sans-serif;
-		text-indent:132px;
+		text-indent:155px;
 		}
 
 		#button1 {
@@ -44,7 +65,7 @@
 		height:75px;
 		background:white;
 		position:relative;
-		left: 50px;
+		left: 75px;
 		animation:myfirst 5s;
 		-webkit-animation:myfirst 5s; /* Safari and Chrome */
 		-webkit-transition:background 1s; /* For Safari 3.1 to 6.0 */
@@ -54,16 +75,16 @@
 		@keyframes myfirst
 		{
 		0%   {background:white; left:0px; }
-		50%  {background:white; left:50px; }
-		100%  {background:white; left:50px; }
+		50%  {background:white; left:75px; }
+		100%  {background:white; left:75px; }
 
 		}
 
 		@-webkit-keyframes myfirst /* Safari and Chrome */
 		{
 		0%   {background:white; left:0px; }
-		50%  {background:white; left:50px; }
-		100%  {background:white; left:50px; }
+		50%  {background:white; left:75px; }
+		100%  {background:white; left:75px; }
 		}
 
 		#button1:hover
@@ -76,7 +97,7 @@
 		height:75px;
 		background:white;
 		position:relative;
-		left: 50px;
+		left: 75px;
 		animation:my2nd 5s;
 		-webkit-animation:my2nd 5s; /* Safari and Chrome */
 		-webkit-transition:background 1s; /* For Safari 3.1 to 6.0 */
@@ -86,16 +107,16 @@
 		@keyframes my2nd
 		{
 		0%   {background:white; left:0px; }
-		50%  {background:white; left:50px; }
-		100%  {background:white; left:50px; }
+		50%  {background:white; left:75px; }
+		100%  {background:white; left:75px; }
 
 		}
 
 		@-webkit-keyframes my2nd /* Safari and Chrome */
 		{
 		0%   {background:white; left:0px; }
-		50%  {background:white; left:50px; }
-		100%  {background:white; left:50px; }
+		50%  {background:white; left:75px; }
+		100%  {background:white; left:75px; }
 		}
 		
 		#button2:hover
@@ -108,18 +129,20 @@
     </head>
 
 <body>
-<p>Welcome to</p>
 
+<div id="ccontainer">
+<p>Welcome to</p>
 <div id="animation-container">
 	<div class="inner-circle"></div>
 </div>
 
 <strong><p>THE QUIZZ</p></strong>
 <div id = "button1">
-	<a href=../proof3/quiz4.php?q=1><img src="take.png" alt="Take a Quiz"></a>
+	<a href=../proof4/quiz4.php?q=1><img src="take.png" alt="Take a Quiz"></a>
 </div>
 <div id = "button2">
 	<img src="make.png" alt="Make a Quiz">
+</div>
 </div>
 </body>
 </html>

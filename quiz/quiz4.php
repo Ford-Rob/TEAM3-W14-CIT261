@@ -2,12 +2,23 @@
 
 <html>
     <head>
+	<meta name="viewport" content="width=500" />
 
         <style>
+		@media (max-width: 599px) and (min-width: 420px) {
+			@-viewport {
+			width: 500px;
+			}
+		}
             body {
             	background-image:url('BG.png');
 		  }
-
+		  .tab { 
+			text-align:center;
+			font-family: Arial,Calibri,sans-serif; 
+			font-size: medium;
+			
+			}
 		  #ccontainer{
 		  width:450px;
 
@@ -220,7 +231,7 @@
 
     <div id="ccontainer">
 <canvas id="myCanvas" width="450" height="480"></canvas>
-<p>time: <output id="result"></output></p>
+<p class="tab">Time: <output id="result"></output></p>
         </div>
 
 
